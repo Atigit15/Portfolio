@@ -7,6 +7,25 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project2.png",
+      projectName: "Realtime Chat App",
+      projectLink: "https://netlify.com",
+      projectDescription:
+        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React.",
+      projectTech: [
+        "React",
+        "Sockets",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Styled Components",
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "",
+      },
+    },
+    {
       image: "/project1.png",
       projectName: "Pokedex",
       projectLink: "https://netlify.com",
@@ -19,25 +38,6 @@ function Projects() {
         "Firebase",
         "Typescript",
         "PokeApi",
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "",
-      },
-    },
-    {
-      image: "/project2.png",
-      projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
-      projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
-      projectTech: [
-        "React",
-        "Sockets",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Styled Components",
       ],
       projectExternalLinks: {
         github: "",
@@ -77,7 +77,7 @@ function Projects() {
           hidden: { opacity: 0, y: 0 },
         }}
       >
-        <h2>Some Things I’ve Built</h2>
+        <h2>Projects</h2>
       </motion.div>
       <div className="projects-container">
         {projectsData.map(

@@ -2,35 +2,34 @@ import Link from "next/link";
 import React from "react";
 import {
   FiGithub,
-  FiInstagram,
-  FiYoutube,
   FiLinkedin,
   FiTwitter,
 } from "react-icons/fi";
+import { SiLeetcode, SiLinktree } from 'react-icons/si'
 import { motion } from "framer-motion";
 
 function SocialIcons() {
   const socialLinks = [
-    { name: "Github", icon: <FiGithub />, link: "https://www.github.com" },
-    {
-      name: "Youtube",
-      icon: <FiYoutube />,
-      link: "https://www.youtube.com/KishanSheth21/",
-    },
+    { name: "Github", icon: <FiGithub />, link: "https://www.github.com/Atigit15" },
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/koolkishan/",
+      link: "https://www.linkedin.com/in/atishay-jain-b00586192",
     },
     {
-      name: "Instagram",
-      icon: <FiInstagram />,
-      link: "https://instagram.com/koolkishansheth",
+      name: "Leetcode",
+      icon: <SiLeetcode />,
+      link: "https://leetcode.com/Atishayjn15/",
+    },
+    {
+      name: "LinkTree",
+      icon: <SiLinktree />,
+      link: "https://linktr.ee/atishay_jain",
     },
     {
       name: "Twitter",
       icon: <FiTwitter />,
-      link: "https://twitter.com/koolkishansheth",
+      link: "https://twitter.com/Atishay70433479",
     },
   ];
   return (

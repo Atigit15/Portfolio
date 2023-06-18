@@ -27,7 +27,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        Kishan Sheth.
+        Atishay Jain.
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"
@@ -51,12 +51,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a software engineer with expertise in creating top-notch
-        digital experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at&nbsp;
-        <Link href="https://rapidops.com" target="_blank" className="link">
-          Rapidops.
-        </Link>
+        I am studest at LNMITT. Pursuing Btech CSE&apos;24.
       </motion.p>
       <motion.div
         className="hero-button"
@@ -69,8 +64,8 @@ function Hero() {
         }}
       >
         <Button
-          text="Check out my course"
-          link="https://youtube.com/kishansheth21"
+          text="Check out my work"
+          link="https://github.com/Atigit15"
         />
       </motion.div>
     </div>

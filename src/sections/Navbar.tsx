@@ -10,12 +10,10 @@ function Navbar() {
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const sectionLinks = [
     { name: "About", link: "/#about" },
-    { name: "Experience", link: "/#experience" },
-    { name: "Work", link: "/#work" },
-    {
-      name: "Contact",
-      link: "/#contact",
-    },
+    { name: "Education", link: "/#education" },
+    { name: "Projects", link: "/#work" },
+    { name: "Achievements", link: "/#achievements" },
+    { name: "Contact", link: "/#contact",},
   ];
 
   useEffect(() => {

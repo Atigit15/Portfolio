@@ -28,10 +28,8 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
-            digital content for the web. My interest in web development was
-            sparked in 2016 when I created my first project called Lavish, a
-            social media app built using React and Node.js.
+            Bonjour! My name is Atishay, and I am passionate about creating
+            digital content for the web. 
           </p>
           <p className="about-grid-info-text">
             Fast-forward to today, I specialize in designing and developing
@@ -62,14 +60,14 @@ function About() {
             Here are a few technologies I’ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
+            <li className="about-grid-info-list-item">HTML</li>
+            <li className="about-grid-info-list-item">CSS</li>
+            <li className="about-grid-info-list-item">Javascript</li>
             <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">React Native</li>
-            <li className="about-grid-info-list-item">Next.js</li>
-            <li className="about-grid-info-list-item">Typescript</li>
-            <li className="about-grid-info-list-item">Redux Toolkit</li>
             <li className="about-grid-info-list-item">Node.js</li>
-            <li className="about-grid-info-list-item">Elasticsearch</li>
-            <li className="about-grid-info-list-item">Kibana</li>
+            <li className="about-grid-info-list-item">Express</li>
+            <li className="about-grid-info-list-item">MongoDB</li>
+            <li className="about-grid-info-list-item">Firebase</li>
             <li className="about-grid-info-list-item">CSS</li>
           </ul>
         </div>
@@ -77,7 +75,7 @@ function About() {
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/kishan.jpeg" alt="profile" fill />
+            <Image src="/atishay.jpg" alt="profile" fill />
           </div>
         </div>
       </div>
