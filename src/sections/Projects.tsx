@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/project2.png",
-      projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
+      image: "/project4.png",
+      projectName: "Quirk Chat",
+      projectLink: "https://quirk-chat.netlify.app",
       projectDescription:
         "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React.",
       projectTech: [
@@ -21,46 +21,39 @@ function Projects() {
         "Styled Components",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/Atigit15/Quirk-Chat",
+        externalLink: "https://quirk-chat.netlify.app",
       },
     },
     {
-      image: "/project1.png",
-      projectName: "Pokedex",
-      projectLink: "https://netlify.com",
+      image: "/project5.png",
+      projectName: "SneakerLand Landing Page",
+      projectLink: "https://atigit15.github.io/SneakerLand-LandingPage/",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+        "Welcome to Sneakerland, a landing page for sneaker enthusiasts. This project is completely responsive and is built using HTML, SCSS, and JavaScript. It provides a visually appealing and user-friendly interface to showcase different sneaker models.",
       projectTech: [
-        "React",
-        "Redux Toolkit",
+        "HTML",
         "SCSS",
-        "Firebase",
-        "Typescript",
-        "PokeApi",
+        "Javascript",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/Atigit15/SneakerLand-LandingPage",
+        externalLink: "https://atigit15.github.io/SneakerLand-LandingPage/",
       },
     },
     {
-      image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
+      image: "/project6.png",
+      projectName: "Meme-ory Game",
+      projectLink: "https://meme-ory-game.netlify.app/",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "Welcome to the React Memes Memory Game, a delightful variation of the classic memory game that combines brain-teasing fun with popular internet memes!.",
       projectTech: [
         "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Redux Toolkit",
+        "CSS",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/Atigit15/Meme-ory_Game",
+        externalLink: "https://meme-ory-game.netlify.app/",
       },
     },
   ];
@@ -103,7 +96,8 @@ function Projects() {
                 }}
               >
                 <div className="project-image">
-                  <div className="project-image-overlay"></div>
+                  {/* <div className="project-image-overlay"></div> */}
+                  <div className="project-image-border"></div>
                   <div className="project-image-container">
                     <Image src={image} fill alt={projectName} quality={100} />
                   </div>
@@ -126,6 +120,7 @@ function Projects() {
                       <Link
                         href={projectExternalLinks.github}
                         className="project-info-links-item-link"
+                        target="_blank"
                       >
                         <FiGithub />
                       </Link>
@@ -134,6 +129,7 @@ function Projects() {
                       <Link
                         href={projectExternalLinks.externalLink}
                         className="project-info-links-item-link"
+                        target="_blank"
                       >
                         <FiExternalLink />
                       </Link>

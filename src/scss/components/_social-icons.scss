@@ -6,7 +6,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.3rem;
     &-item {
       font-size: var(--tlarge2);
       transition: 0.3s ease-in-out;
@@ -38,7 +38,7 @@
       content: "";
       display: block;
       width: 2px;
-      height: 90px;
+      height: 150px;
       margin: 0px auto;
       background-color: var(--light-slate);
     }

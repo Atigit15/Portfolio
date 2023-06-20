@@ -28,54 +28,41 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Atishay, and I am passionate about creating
+            Hello! My name is Atishay, and I am passionate about creating
             digital content for the web. 
           </p>
           <p className="about-grid-info-text">
-            Fast-forward to today, I specialize in designing and developing
-            high-quality solutions that delight our clients and exceed their
-            expectations at{" "}
-            <Link href="https://rapidops.com" className="link" target="_blank">
-              Rapidops.
-            </Link>
+            I specialize in the MERN stack and have successfully crafted several projects.
           </p>
 
           <p className="about-grid-info-text">
-            Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
+            Alongside my expertise in building dynamic web applications, I possess a solid foundation in data structures and algorithms.
           </p>
           <p className="about-grid-info-text">
-            I am also working on a new project called&nbsp;
-            <Link
-              className="link"
-              target="_blank"
-              href="https://frontendvita.com"
-            >
-              FrontendVita,
-            </Link>
-            &nbsp;aimed at enhancing frontend development skills.
+          Additionally, my curiosity extends to exploring cloud technologies, further enhancing my skills in the ever-evolving tech landscape.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
           </p>
+          <br></br>
+          {/* <br></br> */}
           <ul className="about-grid-info-list">
+            <li className="about-grid-info-list-item">React</li>
+            <li className="about-grid-info-list-item">MongoDB</li>
             <li className="about-grid-info-list-item">HTML</li>
             <li className="about-grid-info-list-item">CSS</li>
-            <li className="about-grid-info-list-item">Javascript</li>
-            <li className="about-grid-info-list-item">React</li>
             <li className="about-grid-info-list-item">Node.js</li>
             <li className="about-grid-info-list-item">Express</li>
-            <li className="about-grid-info-list-item">MongoDB</li>
+            <li className="about-grid-info-list-item">Javascript</li>
             <li className="about-grid-info-list-item">Firebase</li>
-            <li className="about-grid-info-list-item">CSS</li>
+            <li className="about-grid-info-list-item">Git/Github</li>
           </ul>
         </div>
         <div className="about-grid-photo">
-          <div className="overlay"></div>
+          {/* <div className="overlay"></div> */}
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/atishay.jpg" alt="profile" fill />
+            <Image src="/atishay3.jpg" alt="profile" fill />
           </div>
         </div>
       </div>
