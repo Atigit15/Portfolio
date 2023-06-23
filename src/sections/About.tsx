@@ -39,7 +39,7 @@ function About() {
             Alongside my expertise in building dynamic web applications, I possess a solid foundation in data structures and algorithms.
           </p>
           <p className="about-grid-info-text">
-          Additionally, my curiosity extends to exploring cloud technologies, further enhancing my skills in the ever-evolving tech landscape.
+          Additionally, my curiosity extends to exploring cloud and devOps technologies, further enhancing my skills in the ever-evolving tech landscape.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:

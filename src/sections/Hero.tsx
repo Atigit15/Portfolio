@@ -51,7 +51,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I am an aspiring full stack web developer currently pursuing a Bachelor&apos;s degree in Computer Science from LNM Institute of Information Technology (Batch of 2024). 
+        I am an aspiring software engineer currently pursuing a Bachelor&apos;s degree in Computer Science from LNM Institute of Information Technology (Batch of 2024). 
       </motion.p>
       <motion.div
         className="hero-button"
