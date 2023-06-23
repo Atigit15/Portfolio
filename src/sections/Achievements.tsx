@@ -52,7 +52,7 @@ function Achievements() {
           </div>
           <div className="text">
             <h3>Knight at Leetcode</h3>
-            <p>Solved over 600 questions. Rating of 1868 (Top 0.53%)</p>
+            <p>Solved over 600 questions. Rating of 1868 (Top 5.3%)</p>
             {/* <p>Solved over 600 questions. Rating of 1868 (Top 0.53%)</p> */}
           </div>
         </div>
