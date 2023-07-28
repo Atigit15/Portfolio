@@ -43,7 +43,7 @@ function Achievements() {
           </div>
           <div className="text">
             <h3>IICC - Coding Ninjas</h3>
-            <p>Secured AIR 137 out of 89k+ participants in IICC Conducted by Coding Ninjas.</p>
+            <p>Secured All India Rank 137 out of 89k+ participants in IICC Conducted by Coding Ninjas.</p>
           </div>
         </div>
         <div className="achievements-content-child">
@@ -52,7 +52,8 @@ function Achievements() {
           </div>
           <div className="text">
             <h3>Knight at Leetcode</h3>
-            <p>Solved over 600 questions. Rating of 1868 (Top 5.3%)</p>
+            <p> Maximum Rating of 1979 (Top 3%)</p>
+            <p> Secured Global Rank 838 out of 24k+ participants in Leetcode Weekly Contest 354.</p>
             {/* <p>Solved over 600 questions. Rating of 1868 (Top 0.53%)</p> */}
           </div>
         </div>
@@ -71,8 +72,9 @@ function Achievements() {
             <Image src={"/codeforces-logo.png"} width={60} height={80} alt={"image"} quality={100}></Image>
           </div>
           <div className="text">
-            <h3>Codeforces Round 794</h3>
-            <p>Secured Global Rank 1295 out of 9.3k+ participants in Codeforces Round 794 (Div-2).</p>
+            <h3>Codeforces</h3>
+            <p>Highest Rating 1492 - Specialist.</p>
+            <p>Secured Global Rank 736 out of 17k+ participants in Codeforces Round 883 (Div-3).</p>
           </div>
         </div>
         <div className="achievements-content-child">

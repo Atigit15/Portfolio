@@ -11,7 +11,7 @@ function Projects() {
       projectName: "Quirk Chat",
       projectLink: "https://quirk-chat.netlify.app",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React.",
+        "This is a chat app made with React and Node.js that sends real-time messages using websocket connection. It also features sign-in with Google option. Methods like code splitting using React's lazy and suspense API and debouncing is applied to optimise the performance of the app.",
       projectTech: [
         "React",
         "Sockets",
@@ -23,6 +23,20 @@ function Projects() {
       projectExternalLinks: {
         github: "https://github.com/Atigit15/Quirk-Chat",
         externalLink: "https://quirk-chat.netlify.app",
+      },
+    },
+    {
+      image: "/project7.png",
+      projectName: "Goal Setter",
+      projectLink: "https://github.com/Atigit15/GoalSetter",
+      projectDescription:
+        "Welcome to GoalSetter! Your Ambition Ally. This is a MERN web application designed to help users set and track their personal goals. It offers user authentication and all the CRUD operations. Users can set a deadline and priority of a goal. To beat procrastination, concept of priority aging is introduced, in which priority keeps on increasing as the deadline comes closer.",
+      projectTech: [
+        "React", "Redux Toolkit","Node.js", "Express", "JWT", "MongoDB"
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/Atigit15/GoalSetter",
+        externalLink: "https://github.com/Atigit15/GoalSetter",
       },
     },
     {
@@ -40,23 +54,10 @@ function Projects() {
         github: "https://github.com/Atigit15/SneakerLand-LandingPage",
         externalLink: "https://atigit15.github.io/SneakerLand-LandingPage/",
       },
-    },
-    {
-      image: "/project6.png",
-      projectName: "Meme-ory Game",
-      projectLink: "https://meme-ory-game.netlify.app/",
-      projectDescription:
-        "Welcome to the React Memes Memory Game, a delightful variation of the classic memory game that combines brain-teasing fun with popular internet memes!.",
-      projectTech: [
-        "React",
-        "CSS",
-      ],
-      projectExternalLinks: {
-        github: "https://github.com/Atigit15/Meme-ory_Game",
-        externalLink: "https://meme-ory-game.netlify.app/",
-      },
-    },
+    }
   ];
+
+
   return (
     <div className="projects" id="work">
       <motion.div

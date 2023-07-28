@@ -5,6 +5,9 @@ import {
   FiLinkedin,
   FiTwitter,
 } from "react-icons/fi";
+
+import {BsMedium} from "react-icons/bs";
+
 import { SiLeetcode, SiLinktree } from 'react-icons/si'
 import { motion } from "framer-motion";
 
@@ -15,6 +18,11 @@ function SocialIcons() {
       name: "LinkedIn",
       icon: <FiLinkedin />,
       link: "https://www.linkedin.com/in/atishay-jain-b00586192",
+    },
+    {
+      name: "Medium",
+      icon: <BsMedium />,
+      link: "https://medium.com/@atishayjn999",
     },
     {
       name: "Leetcode",

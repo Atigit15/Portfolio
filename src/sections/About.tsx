@@ -42,6 +42,9 @@ function About() {
           Additionally, my curiosity extends to exploring cloud and devOps technologies, further enhancing my skills in the ever-evolving tech landscape.
           </p>
           <p className="about-grid-info-text">
+          I like to share my knowledge and learnings with the world through technical writing. You can check out my blogs on platforms like Medium and Hashnode.
+          </p>
+          <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
           </p>
           <br></br>
